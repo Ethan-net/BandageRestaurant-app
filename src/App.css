@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.navBar{
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.center-cont{
+  display: flex;
+  gap: 15px;
+}
+.center-cont>a{
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.center-cont>a>strong{
+  color: #737373;
+}
+.accountLog{
+  display: flex;
+  gap: 5px;
+  font: optional;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #23A6F0;
+  ;
+ 
+}
+.accountLog>a{
+  text-decoration: none;
+  color: #23A6F0;
+}
+.icons{
+  display: flex;
+  gap: 30px;
+}
+.herobrg{
+  background: url('./assets/shophero.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: white;
+  gap: 20px;
+  position: relative;
+}
+.herobrg>p{
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+.herobrg>button{
+  background-color: #23A6F0;
+  padding: 2vh 3vw;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.rightarrow{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 1.5vw;
+}
+.leftarrow{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  width: 1.5vw;
+}
