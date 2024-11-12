@@ -32,11 +32,7 @@ export default function Firstshow() {
                 </div>
 
          </div>
-         <div className='flex flex-wrap  gap-4'>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
+         <div className=''>
             <ProductCard/>
          </div>
          </div>
