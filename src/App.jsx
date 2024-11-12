@@ -3,6 +3,7 @@ import './App.css'
 
 import Hero from './components/Hero'
 import Navbar from './components/navbar/navbar'
+import Firstshow from './pages/products/popular/firstshow'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <div>
         <Navbar/>
         <Hero/>
+        <Firstshow/>
       </div>
     </>
   )

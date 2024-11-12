@@ -15,7 +15,7 @@ export default function Navbar() {
       <Logo/>
       <div className='center-cont'> 
         <a href=""><strong>Home</strong></a>
-        <a href="">Shop<img src={arrowdown}></img> </a>
+        <a href="">Shop<img src={arrowdown}></img></a>
         <a href=""><strong>About</strong></a>
         <a href=""><strong>Blog</strong></a>
         <a href=""><strong>Contact</strong></a>
