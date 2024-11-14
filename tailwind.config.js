@@ -19,7 +19,7 @@ export default {
       backgroundColor:['active', 'disabled', 'checked'],
       borderColor:['active', 'disabled', 'checked', 'focused'],
       backgroundImage:{
-        firstshow: 'url(./src/assets/images/logos/firstshowImg/card-cover-5.png)'
+        firstshow: 'url(/src/assets/images/logos/firstshowImg/card-cover-5.png)'
       }
     },
   },
